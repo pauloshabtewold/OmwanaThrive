@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 16.3.2",
+    "appVersionSource": "remote",
+    "requireCommit": true
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "autoIncrement": true,
+      "env": {
+        "ENV": "production"
+      }
+    }
+  },
+  "submit": {
+  "production": {
+  }
+}
+}

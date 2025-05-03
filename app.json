@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "otapp",
+    "slug": "otapp",
+    "sdkVersion": "52.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.roseacademies.omwanathriveapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.roseacademies.omwanathriveapp",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c4afd71-8028-47eb-827e-5d1726d38dcd"
+      }
+    }
+  }
+}
