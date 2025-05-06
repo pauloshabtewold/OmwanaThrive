@@ -10,11 +10,6 @@ class HomeScreen extends React.Component {
           color="#955d74" //dark pink
           onPress={() => this.props.navigation.navigate("Modules")}
         />
-        <Button
-          title="Administrator"
-          color="#955d74" //dark pink
-          onPress={() => this.props.navigation.navigate("Login")}
-        />
       </View>
     );
   }
